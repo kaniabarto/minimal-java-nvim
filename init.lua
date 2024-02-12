@@ -17,6 +17,9 @@ require("lazy").setup({
     {
         'williamboman/mason.nvim',
     },
+    {
+        'mfusseneger/nvim-jdtls',
+    },
 })
 
 require'mason'.setup()
