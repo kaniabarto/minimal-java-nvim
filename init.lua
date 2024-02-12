@@ -14,4 +14,9 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Install required plugins
 require("lazy").setup({
+    {
+        'williamboman/mason.nvim',
+    },
 })
+
+require'mason'.setup()
