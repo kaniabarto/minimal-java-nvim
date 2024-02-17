@@ -38,6 +38,10 @@ require("lazy").setup({
             'rcasia/neotest-java',
         },
     },
+    {
+        'rcarriga/nvim-dap-ui',
+        dependencies = 'mfussenegger/nvim-dap',
+    },
 })
 
 require'mason'.setup()
