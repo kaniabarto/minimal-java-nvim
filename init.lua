@@ -18,7 +18,7 @@ require("lazy").setup({
         'williamboman/mason.nvim',
     },
     {
-        'mfusseneger/nvim-jdtls',
+        'mfussenegger/nvim-jdtls',
         dependencies = 'hrsh7th/cmp-nvim-lsp',
     },
     {
