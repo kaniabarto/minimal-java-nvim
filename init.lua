@@ -43,6 +43,9 @@ require("lazy").setup({
         'rcarriga/nvim-dap-ui',
         dependencies = 'mfussenegger/nvim-dap',
     },
+    {
+	'nvim-tree/nvim-tree.lua',
+    },
 })
 
 require'mason'.setup()
@@ -69,3 +72,4 @@ require'neotest'.setup({
         require'neotest-java',
     },
 })
+require("nvim-tree").setup()
